@@ -1,0 +1,6 @@
+cd "c:\Users\Kaushik Rane\Dropbox\PC\Desktop\Packet-Sniffer\Packet-Sniffer"
+
+javac -cp "jar_files/jpcap.jar;jar_files/jnetpcap.jar;jar_files/jaxb-ri/mod/jaxb-api.jar" src/PacketSniffer/*.java -d build/classes
+
+java -cp "build/classes;jar_files/jpcap.jar;jar_files/jnetpcap.jar;jar_files/jaxb-ri/mod/jaxb-api.jar" PacketSniffer.PacketSniffer
+
