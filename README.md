@@ -1,23 +1,24 @@
-# Packet-Sniffer
+# Network_Packet_Sniffer
+------------------------
 
 A network packet sniffer capable of sniffing tcp, udp and icmp packets that follows all of the SOLID principles.
 The graphical user interface has been designed to match that of wireshark's.
 
-This project is built as part of the OOADJ course at PES University.
+This project is built as part of the Computer Science course at NWC Pune.
 
-# Tools Used:
+## Tools Used:
 
-jdk - 15.0.1
+* jdk - 22
 
-jpcap - 0.01.16
+* jpcap - 0.7 
 
-winpcap - 4.1.1.3
+* winpcap - 4.1.1.3
 
-# Frameworks Used:
+* Setup files in ./jar_files
 
-swing - desktop gui view
+## Frameworks Used:
 
-postgres - database
+* swing - desktop GUI view
 
 
 
